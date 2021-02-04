@@ -11,5 +11,5 @@ For Android you can put your `google-services.json.dev` and `google-services.jso
 
 The build hooks of this plugin will now choose either the `dev` or the `prod` version of your google services `plist` and `json` files depending on how you run your build:
 
-- `dev` will be selected if you run with either `--env.dev`, `--env.development` or `--env.staging` flags.
-- `prod` will be selected if you run with either `--env.prod` or `--env.production`.
+- `dev` will be selected if you run without `--env.production`.
+- `prod` will be selected if you run with `--env.production`.
