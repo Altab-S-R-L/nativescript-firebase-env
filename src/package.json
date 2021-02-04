@@ -1,6 +1,6 @@
 {
   "name": "@vulksoft/nativescript-firebase-env",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Separate environment for nativescript-firebase",
   "nativescript": {
     "platforms": {
