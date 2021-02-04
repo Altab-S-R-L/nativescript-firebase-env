@@ -1,6 +1,6 @@
 {
   "name": "@vulksoft/nativescript-firebase-env",
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "Separate environment for nativescript-firebase",
   "nativescript": {
     "platforms": {
@@ -61,8 +61,7 @@
   },
   "dependencies": {
     "@nativescript/hook": "^2.0.0",
-    "androidmanifest": "^2.0.0",
     "fs-extra": "^9.0.1",
-    "plist": "^3.0.1"
+    "path": "^0.12.7"
   }
 }
