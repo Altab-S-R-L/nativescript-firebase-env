@@ -9,7 +9,12 @@ module.exports = function (
 ) {
   const platform = hookArgs.prepareData.platform;
   const appDir = $projectData.projectDir;
-  const extension = hookArgs.prepareData.env.production ? ".prod" : ".dev";
+  const extension =
+    hookArgs.prepareData.env.environment === "staging" ? ".dev" : ".prod";
+
+  console.log(
+    `[nativescript-firebase-env] Using environment: ${hookArgs.prepareData.env.environment}`
+  );
 
   if (platform === "android") {
     const file = `google-services.json${extension}`;
