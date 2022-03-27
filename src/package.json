@@ -53,7 +53,6 @@
     "@nativescript/webpack": "~3.0.0",
     "prompt": "^1.2.2",
     "rimraf": "^3.0.2",
-    "semver": "^7.3.5",
     "tslint": "^5.12.1",
     "typescript": "~3.9.0"
   },
